@@ -1,0 +1,11 @@
+project: dcps_test_idl_only_lib {
+  idlflags      += -SS \
+                   -I. \
+                   -I./idlfiles
+  dcps_ts_flags += -I. \
+                   -I./idlfiles
+  TypeSupport_Files {
+    ./idlfiles/a.idl
+    ./idlfiles/b.idl
+  }
+}
