@@ -8,4 +8,7 @@ project: dcps_test_idl_only_lib {
     ./idlfiles/a.idl
     ./idlfiles/b.idl
   }
+  IDL_Files {
+    ./idlfiles
+  }
 }
